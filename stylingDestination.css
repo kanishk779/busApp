@@ -1,0 +1,56 @@
+
+htmlhtml  {
+    {     box-sizingbox-sizing:: border-box border-box;
+    ;     heightheight::  100%100%;
+}; }
+
+*,
+*  *, *::before::before,
+*, *::after::after  {
+    {     box-sizingbox-sizing:: inherit inherit;
+}; }
+
+  bodybody  {
+    {     displaydisplay:: flex flex;
+    ;     marginmargin::  00;
+    ;     heightheight::  100%100%;
+}; }
+
+  .container.container  {
+    {     marginmargin:: auto auto;
+    ;     paddingpadding::  1em1em;
+    ;     widthwidth::  80%80%;
+}; }
+
+  .destination-container.destination-container  {
+    {     displaydisplay:: flex flex;
+    ;     flex-flowflex-flow:: wrap wrap;
+    ;     justify-contentjustify-content:: center center;
+}; }
+
+  .destination.destination  {
+    {     backgroundbackground::  #03a9f4#03a9f4;
+    ;     box-shadowbox-shadow::  00  1px1px  9px9px  00  rgbargba((00, , 00, , 00, , 0.40.4));
+    ;     colorcolor:: white white;
+    ;     marginmargin::  0.5em0.5em;
+    ;     min-heightmin-height::  200px200px;
+    ;     flexflex::  00  11  200px200px;
+    ;     displaydisplay:: flex flex;
+    ;     justify-contentjustify-content:: center center;
+    ;     align-itemsalign-items:: center center;
+    ;     text-aligntext-align:: center center;
+}; }
+
+  h2h2  {
+    {     marginmargin::  00;
+    ;     transformtransform::  rotaterotate(-(-45deg45deg));
+    ;     text-shadowtext-shadow::  00  00  5px5px  #01579b#01579b;
+}; }
+
+  #florida#florida  {
+    {     background-colorbackground-color::  #03a9f4#03a9f4;
+}; }
+
+  #paris#paris  {
+    {     background-colorbackground-color::  #d32f2f#d32f2f;
+}; }
