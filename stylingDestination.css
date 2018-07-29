@@ -27,7 +27,9 @@ htmlhtml  {
     ;     flex-flowflex-flow:: wrap wrap;
     ;     justify-contentjustify-content:: center center;
 }; }
-
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
   .destination.destination  {
     {     backgroundbackground::  #03a9f4#03a9f4;
     ;     box-shadowbox-shadow::  00  1px1px  9px9px  00  rgbargba((00, , 00, , 00, , 0.40.4));
@@ -43,6 +45,7 @@ htmlhtml  {
 
   h2h2  {
     {     marginmargin::  00;
+        transition: transform 0.5s;
     ;     transformtransform::  rotaterotate(-(-45deg45deg));
     ;     text-shadowtext-shadow::  00  00  5px5px  #01579b#01579b;
 }; }
